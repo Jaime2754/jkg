@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background: rgb(186, 195, 34);
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja1{
+    margin-right: 25px;
+}
+.caja1 img{
+    width: 200px;
+    border-radius:200px;
+}
+
+.caja2{
+    text-align: center;
+}
+.caja2 h2{
+    font-weight: 400;
+    margin: 0;
+}
+.caja2 h1{
+    font-weight: bold;
+    color: #c1fe1abe;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1045px){
+    
+}
+
+
+/* Pantallas Medianas */
+@media screen and (max-width:768px){
+    .caja1 img{
+        width: 150px;
+    }
+}
+
+
+/* Pantallas Pequeñas */
+@media screen and (max-width:425px){
+    main{
+        flex-direction: column;
+    }
+    .caja1{
+        margin: 0px 0px 25px;
+    }
+
+
+}
